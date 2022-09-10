@@ -24,7 +24,7 @@ function App() {
   }
 
   return (
-    <div className='text-center max-w-3xl mx-4 lg:mx-auto my-16 relative flex flex-col'>
+    <div className='text-center max-w-3xl mx-4 lg:mx-auto my-16 relative flex flex-col '>
       <h2 className="font-semibold mb-12 head"><span className="text-primary">/</span> Reviews</h2>
       <button className="z-10" onClick={(e)=>handleClick(e)}>
         <i id="left" className="ico fa-solid fa-angle-left"></i>
